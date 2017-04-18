@@ -11,7 +11,7 @@ var basicCard = require("./harryPotterTrivia.js");
 var count = 0;
 var score = 0;
 //indicates that game should begin.
-startgame();
+//var startgame();
 
 var Question = function () {
 	//This line is saying that if the count is less than the number of items in the basic.Trivia array, 
@@ -57,4 +57,5 @@ var Question = function () {
 			});
 		}
 	}
-}
+};
+
